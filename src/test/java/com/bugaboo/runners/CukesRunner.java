@@ -1,4 +1,4 @@
-package com.yavlena.runners;
+package com.bugaboo.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -13,10 +13,10 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = "src/test/resources/feature",
-        glue = "com/yavlena/step_definitions",
-        dryRun =false,
-        tags ="@TS01"
+        features = "src/test/resources/features",
+        glue = "com/bugaboo/step_definitions",
+        dryRun =true,
+        tags ="@TS03"
 
 )
 public class CukesRunner {

@@ -1,4 +1,4 @@
-package com.yavlena.utilites;
+package com.bugaboo.utilites;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

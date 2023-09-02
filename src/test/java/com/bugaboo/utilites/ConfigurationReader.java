@@ -1,4 +1,4 @@
-package com.yavlena.utilites;
+package com.bugaboo.utilites;
 
 import java.io.FileInputStream;
 import java.io.IOException;

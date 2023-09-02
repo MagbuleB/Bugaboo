@@ -1,4 +1,4 @@
-package com.yavlena.utilites;
+package com.bugaboo.utilites;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;

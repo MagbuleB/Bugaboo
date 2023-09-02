@@ -2,6 +2,7 @@ package com.bugaboo.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 
 public class FormPage extends BasePage{
 
@@ -11,11 +12,7 @@ public class FormPage extends BasePage{
     @FindBy(id  ="input-123")
     public WebElement purchaseDateInputBox;
 
-    @FindBy(id  ="input-123")
-    public WebElement purchaseLocationRadioButtonOnline;
 
-    @FindBy(id  ="input-123")
-    public WebElement purchaseLocationRadioButtonShop;
 
     @FindBy(xpath ="//div[@class=\"slds-form-element__control slds-grow textarea-container\"]/textarea")
     public WebElement description;
@@ -40,6 +37,16 @@ public class FormPage extends BasePage{
 
     @FindBy(id  ="input-140")
     public WebElement street2;
+
+    @FindBy(id  ="input-144")
+    public WebElement city;
+
+    @FindBy(id  ="input-144")
+    public WebElement country;
+
+
+
+
 
 
 

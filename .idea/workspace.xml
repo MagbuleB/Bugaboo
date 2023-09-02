@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1679c7e0-12b1-486f-8345-516ce7fb4f86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Form_Step_Definition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/form.feature" afterDir="false" />
+    <list default="true" id="1679c7e0-12b1-486f-8345-516ce7fb4f86" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/BugabooPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/BugabooPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Bugaboo_Step_Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Bugaboo_Step_Definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/utilites/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/utilites/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/utilites/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/utilites/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/utilites/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/utilites/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bugaboo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bugaboo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/pages/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Form_Step_Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Form_Step_Definition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +142,11 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenium" />
+    <option name="lastLanguageId" value="JAVA" />
+    <option name="lastUrl" value="https://service.bugaboo.com/s/consumer-contact?selectedItem=Consumer_Contact_Form__c&amp;language=en_US" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -160,8 +155,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693668746074</updated>
-      <workItem from="1693668747913" duration="16739000" />
+      <workItem from="1693668747913" duration="19282000" />
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1693690877145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693690877145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>

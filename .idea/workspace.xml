@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1679c7e0-12b1-486f-8345-516ce7fb4f86" name="Changes" comment="changes in step definition1">
+      <change afterPath="$PROJECT_DIR$/explanation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/runners/FailedTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Bugaboo_Step_Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Bugaboo_Step_Definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Form_Step_Definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Form_Step_Definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/form.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/form.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bugaboo/step_definitions/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,8 @@
       <recent name="C:\Users\User\IdeaProjects\Bugaboo\src\test\java\com\bugaboo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bugaboo.step_definitions" />
       <recent name="com.bugaboo.runners" />
+      <recent name="com.bugaboo.step_definitions" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
@@ -177,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693668746074</updated>
-      <workItem from="1693668747913" duration="36110000" />
+      <workItem from="1693668747913" duration="38849000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1693690877145</created>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693739385075</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes in step definition1">
+      <created>1693745541067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693745541067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

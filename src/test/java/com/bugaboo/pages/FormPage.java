@@ -1,62 +1,57 @@
 package com.bugaboo.pages;
 
+import org.apache.commons.collections4.map.PassiveExpiringMap;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 
-public class FormPage extends BasePage{
+public class FormPage extends BasePage {
 
-    @FindBy(id  ="input-114")
+    @FindBy(xpath = "//input[@name='Serial_Number']")
     public WebElement serialNumberInputBox;
 
-    @FindBy(id  ="input-123")
+    @FindBy(xpath = "//input[@name='Purchase_Date']")
     public WebElement purchaseDateInputBox;
 
 
-
-    @FindBy(xpath ="//div[@class=\"slds-form-element__control slds-grow textarea-container\"]/textarea")
+    @FindBy(xpath = "//textarea[@class=\"slds-textarea\"]")
     public WebElement description;
 
-    @FindBy(id  ="input-137")
+    @FindBy(xpath = "//input[@name=\"First_Name\"]")
     public WebElement firstName;
 
-    @FindBy(id  ="input-141")
+    @FindBy(xpath = "//input[@name=\"Last_Name\"]")
     public WebElement lastName;
 
-    @FindBy(id  ="input-145")
+    @FindBy(xpath = "//input[@name=\"Email\"]")
     public WebElement email;
 
-    @FindBy(id  ="input-145")
+    @FindBy(xpath = "//input[@name=\"Verify_EMail\"]")
     public WebElement verifyEmail;
 
-    @FindBy(id  ="input-145")
+    @FindBy(xpath = "//input[@name=\"country\"]")
     public WebElement phone;
 
-    @FindBy(id  ="input-136")
+    @FindBy(xpath = "//input[@name=\"Street_Address_1\"]")
     public WebElement street1;
 
-    @FindBy(id  ="input-140")
+    @FindBy(xpath = "//input[@name=\"Street_Address_2\"]")
     public WebElement street2;
 
-    @FindBy(id  ="input-144")
+    @FindBy(xpath = "//input[@name=\"City\"]")
     public WebElement city;
 
-    @FindBy(id  ="input-144")
+    @FindBy(xpath = "//select[@name=\"Country\"]")
     public WebElement country;
 
+    @FindBy(xpath = "//div[@class=\"recaptcha-checkbox-border\"]")
+    public WebElement captcha;
 
+    @FindBy(xpath = "//button[@class=\"slds-button slds-button_brand\"]")
+    public WebElement nextButton;
 
-
-
-
-
-
-    
-
-    
-
-
-
+    @FindBy(xpath = "//div[@class=\"container slds-m-bottom_x-small\"]//p")
+    public WebElement verifyText;
 
 
 

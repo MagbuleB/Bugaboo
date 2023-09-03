@@ -28,6 +28,8 @@ public class BugabooPage extends BasePage{
     public WebElement serialIDText;
 
 
+    @FindBy(xpath = "//button[text()='Accept all cookies']")
+    public WebElement cookies;
 
 
 

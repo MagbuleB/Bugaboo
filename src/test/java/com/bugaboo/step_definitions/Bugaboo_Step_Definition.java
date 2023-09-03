@@ -1,6 +1,7 @@
 package com.bugaboo.step_definitions;
 
 import com.bugaboo.pages.BugabooPage;
+import com.bugaboo.utilites.BrowserUtils;
 import com.bugaboo.utilites.ConfigurationReader;
 import com.bugaboo.utilites.Driver;
 import com.google.common.base.Verify;
@@ -38,7 +39,10 @@ public class Bugaboo_Step_Definition {
 
     @When("user selects the dropdown button")
     public void user_selects_the_dropdown() {
-
+        BrowserUtils.waitFor(5);
+        if(bugabooPage.cookies.isDisplayed()){
+            bugabooPage.cookies.click();
+        }
         bugabooPage.dropDownQuestion.click();
     }
 

@@ -7,7 +7,7 @@ Feature: Filling the form in Product Registration
     And click Next button
 
   @TS04
-  Scenario Outline: Filling the First Name input box
+  Scenario Outline: verify Filling the input boxes of Product Registration form with valid inputs
 
     And filling the "<Serial Number>"
     And filling "<Purchase Date>"
@@ -32,7 +32,7 @@ Feature: Filling the form in Product Registration
       | 12346         | Sep 6, 2023   | shop              | buying baby stroller | Mery       | Smith     | mery@gmail.com    | mery@gmail.com    | 90155512 | Road             | Road2            | Sofia  | Bulgaria |
 
 @TS05
-    Scenario Outline: filling the form with invalid serial number
+    Scenario Outline: verify filling the form with invalid serial number data
 
     And filling the invalid serial "<Invalid Serial Number>"
     And filling "<Purchase Date>"

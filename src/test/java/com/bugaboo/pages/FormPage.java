@@ -53,6 +53,6 @@ public class FormPage extends BasePage {
     @FindBy(xpath = "//div[@class=\"container slds-m-bottom_x-small\"]//p")
     public WebElement verifyText;
 
-
-
+@FindBy(xpath = "/html/body/div[3]/div[3]/div/div[2]/div[1]/div/div/article/div/flowruntime-flow/flowruntime-lwc-body/div/flowruntime-list-container/div/flowruntime-base-section/div/flowruntime-screen-field/flowruntime-lwc-field/div/flowruntime-display-text-lwc/lightning-formatted-rich-text/span/p/span")
+public WebElement invalidSerialNumberVerifyText;
 }

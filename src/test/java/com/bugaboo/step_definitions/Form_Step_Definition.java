@@ -1,7 +1,6 @@
 package com.bugaboo.step_definitions;
 
 import com.bugaboo.pages.FormPage;
-import com.bugaboo.utilites.BrowserUtils;
 import com.bugaboo.utilites.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -102,12 +101,12 @@ public class Form_Step_Definition {
 
     @Then("verify user should see {string}")
     public void verify_user_should_see(String string) {
-        BrowserUtils.waitFor(4);
+
         JavascriptExecutor jsExecutor = (JavascriptExecutor) Driver.getDriver();
 
         // Scroll down by a specified number of pixels
         jsExecutor.executeScript("window.scrollBy(0, 100);");
-        BrowserUtils.waitFor(5);
+
         formPage.nextButton.click();
         String actualVerifyText = formPage.verifyText.getText();
         String expectedVerifyText = string;
@@ -127,7 +126,7 @@ public class Form_Step_Definition {
         formPage.nextButton.click();
         String actualInvalidSerialNumberText = formPage.invalidSerialNumberVerifyText.getText();
         String expectedInvalidSerialNumberText = string;
-        Assert.assertEquals(expectedInvalidSerialNumberText,actualInvalidSerialNumberText);
+        Assert.assertEquals(expectedInvalidSerialNumberText, actualInvalidSerialNumberText);
     }
 }
 

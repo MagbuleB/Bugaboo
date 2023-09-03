@@ -31,8 +31,8 @@ Feature: Filling the form in Product Registration
       | 12345         | Sep 5, 2023   | online            | buying stroller      | Magbule    | Bamja     | magbule@gmail.com | magbule@gmail.com | 34456765 | Rruga Tirana     | Rruga Prishtina  | Tirana | Albania  |
       | 12346         | Sep 6, 2023   | shop              | buying baby stroller | Mery       | Smith     | mery@gmail.com    | mery@gmail.com    | 90155512 | Road             | Road2            | Sofia  | Bulgaria |
 
-@TS05
-    Scenario Outline: verify filling the form with invalid serial number data
+  @TS05
+  Scenario Outline: verify filling the form with invalid serial number data
 
     And filling the invalid serial "<Invalid Serial Number>"
     And filling "<Purchase Date>"
@@ -50,8 +50,8 @@ Feature: Filling the form in Product Registration
     And click Next button
     Then verify user see "No product found with this serial number. Please check your input and try again."
 
-    Examples:
+    #invalid serial number
+     Examples:
 
-#invalid serial number
       | Serial Number | Purchase Date | Purchase Location | Description     | First Name | Last Name | Email             | Verify Email      | Phone    | Street Address 1 | Street Address 2 | City   | Country |
       | #$%ghjh       | Sep 5, 2023   | online            | buying stroller | Magbule    | Bamja     | magbule@gmail.com | magbule@gmail.com | 34456765 | Rruga Tirana     | Rruga Prishtina  | Tirana | Albania |
